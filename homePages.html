@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<style>
+
+input[type=text1] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text1]:focus {
+    width: 100%;
+}
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+  .active {
+    background-color: #4CAF50;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#h2 {
+text-align:center;
+}
+
+
+#nav {
+line-height:30px;
+background-color:#eeeeee;
+height:1000px;
+width:150px;
+float:right;
+padding:5px;
+}
+
+#section{
+width:950px;
+height:1000px;
+float:middle;
+padding:10px;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  input {
+    width: 100%;
+}
+  input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#footer{
+background-color:grey;
+color:white;
+clear:both;
+text-align:center;
+padding:5px;
+}
+
+</style>
+  
+   
+<div id="header">
+<h1>SubCrewDownload</h1>
+</div>
+
+<div>
+<ul>
+  <li><a class="active" href="homePages.html">Home</a></li>
+  <li><a href="first.html">Smartphone</a></li>
+  <li><a href="second.html">News</a></li>
+  <li><a href="third.html">Contact</a></li>
+  <li><a href="fourth.html">About</a></li>
+</ul>
+</div>
+
+<div>
+<form>
+  <input type="text1" name="search" placeholder="Search..">
+</form>
+
+</div>
+
+<div id="nav">
+<h1>Contact</h1>
+<p>Please fill up this form to contact me:</p>
+  
+   <form>
+     <label for="fname">Name</label><br>
+     <input type="text" id="fname" name="fname">
+    
+     <label for="femail">Email</label>
+     <input type="text" id="femail" name="femail">
+    
+    <label for="country">State</label>
+    <select id="country" name="country">
+      <option value="malaysia">Malaysia</option>
+      <option value="China">China</option>
+      <option value="India">India</option>
+    </select>
+    
+    <input type="submit" value="Submit">
+   </form>
+  
+</div>
+  
+<div id ="h2">
+ 
+<h2>The New Release Of Xiaomi</h2>
+	<div id="section">
+	
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/cW0mCS6Ke6E" frameborder="0" allowfullscreen></iframe>
+
+				
+		<figure>
+		<img src="/images/mi5.jpg" alt="HTML5 Icon" style="width:500px;height:300px; ">
+		<img src="/images/mi4.jpg" alt="HTML5 Icon" style="width:500px;height:300px; ">
+		
+		</figure>   
+
+	</div>
+</div>
+
+
+<div id="footer">
+<a href ="url"> Copyright SubcrewDownload.com</a>
+</div>
+
+</body>
+
+</html>
